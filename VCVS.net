@@ -1,0 +1,9 @@
+* C:\Users\FilthyWeeb\Documents\Basic-Circuit-Simulator-master\Basic-Circuit-Simulator-master\VCCS.asc
+R1 N001 0 1
+R2 N002 N001 1/2
+R3 N003 0 1/4
+V1 N003 N002 2
+E1 0 N002 N001 N002 E
+I1 N003 0 -3
+.backanno
+.end
